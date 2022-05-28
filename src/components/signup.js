@@ -13,7 +13,7 @@ export default class signup extends Component {
           <h1 className="text-center">
             <span className="font-weight-bold">Sign Up Form</span>
           </h1>
-          <h2 className="text-center">Welcome</h2>
+          <h2 className="text-center">Welcome back,</h2>
           <FormGroup>
             <Input type="text" placeholder="Name" />
           </FormGroup>
@@ -26,7 +26,7 @@ export default class signup extends Component {
           <FormGroup>
             <Input type="password" placeholder="Re-Password" />
           </FormGroup>
-          <Button className="btn-lg btn-block">Sign Up</Button>
+          <Button className="btn-lg btn-block">Please Sign Up here</Button>
           <div className="text-center pt-3">Or</div>
           <FacebookLoginButton className="mt-3 mb-3">
             <span>Sign up with Facebook</span>
