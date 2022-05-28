@@ -39,7 +39,7 @@ export default class login extends Component {
           <h1 className="text-center">
             <span className="font-weight-bold">Login Form</span>
           </h1>
-          <h2 className="text-center">Welcome {this.state.name}</h2>
+          <h2 className="text-center">Welcome back,{this.state.name}</h2>
           <h3>{this.state.email}</h3>
           <img src={this.state.imageUrl} alt={this.state.name} />
           <FormGroup>
