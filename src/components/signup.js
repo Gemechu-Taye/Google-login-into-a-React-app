@@ -26,13 +26,13 @@ export default class signup extends Component {
           <FormGroup>
             <Input type="password" placeholder="Re-Password" />
           </FormGroup>
-          <Button className="btn-lg btn-block">Please Sign Up here</Button>
+          <Button className="btn-lg btn-block">Please Sign Up here:-</Button>
           <div className="text-center pt-3">Or</div>
           <FacebookLoginButton className="mt-3 mb-3">
-            <span>Sign up with Facebook</span>
+            <span>Sign up with Facebook(FB)</span>
           </FacebookLoginButton>
           <GoogleLoginButton className="mt-3 mb-3">
-            <span>Sign up with Google</span>
+            <span>Sign up with Google:</span>
           </GoogleLoginButton>
           <div className="text-center">
             <a href="/">back to login</a>
